@@ -257,7 +257,7 @@ class PhpBench
                 return 'unknown version';
             }
 
-            return InstalledVersions::getPrettyVersion('phpbench/phpbench');
+            return InstalledVersions::getPrettyVersion('maps-sa/phpbench');
         }
 
         /** @phpstan-ignore-next-line */
